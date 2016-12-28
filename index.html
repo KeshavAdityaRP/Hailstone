@@ -1,9 +1,142 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Hailstone</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
+    <link rel="stylesheet" type="text/css" href="css/hailstoneStyle.css">
+    <script type="text/javascript" src="http://gc.kis.scr.kaspersky-labs.com/2AE53B79-098A-7D47-88C0-50954ACD35B2/main.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
+  </head>
+  <body>
+    <div class="ui text container">
+      <div class="ui stackable grid" id="boxesFrame">
+        <div class="eight wide column">
+          <div class="ui people shape small flip1 cover">
+            <div class="sides cover">
+              <div class="active side cover">
+                <div class="ui fluid card cover">
+                  <div class="image cover" id="front">
+                    <!--<img src="cover.jpg" id = "coverimagef">-->
+                  </div>
+                </div>
+              </div>
+              <div class="side cover">
+                <div class="ui fluid card cover">
+                  <div class="image cover" id="back">
+                    <!--<img src="cover2.jpg" id = "coverimageb">-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="eight wide column">
+          <div class="ui people shape small flip2 men marginright">
+            <div class="sides men inner">
+              <div class="active side men">
+                <div class="ui fluid card men">
+                  <div class="image men" id="menfront">
+                    <!--<img src="men.jpg" id = "coverimageff1">-->
+                  </div>
+                </div>
+              </div>
+              <div class="side men">
+                <div class="ui fluid card men">
+                  <div class="image men" id="menback">
+                    <!--<img src="cover2.jpg" id = "coverimagebb1">-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui people shape small flip3 women">
+            <div class="sides women inner">
+              <div class="active side women">
+                <div class="ui fluid card women">
+                  <div class="image women" id="womenfront">
+                    <!--<img src="men.jpg"> -->
+                  </div>
+                </div>
+              </div>
+              <div class="side women">
+                <div class="ui fluid card women">
+                  <div class="image women" id="womenback">
+                    <!--<img src="cover2.jpg">-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui people shape small flip4 extra">
+            <div class="sides extra">
+              <div class="active side extra">
+                <div class="ui fluid card extra">
+                  <div class="image extra" id="extrafront">
+                    <!--<img src="men.jpg" id = "coverimageff3">-->
+                  </div>
+                </div>
+              </div>
+              <div class="side extra">
+                <div class="ui fluid card extra">
+                  <div class="image extra" id="extraback">
+                    <!--<img src="cover2.jpg" id = "coverimagebb3">-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $('.flip1').mouseenter(function() {
+        $('.flip1').shape('flip over');
+      });
 
-</body>
+      $('.flip1').mouseleave(function() {
+        $('.flip1').shape('flip over');
+      });
+
+      $('.flip2').mouseenter(function() {
+        $('.flip2').shape('flip up');
+      });
+
+      $('.flip2').mouseleave(function() {
+        $('.flip2').shape('flip up');
+      });
+      $('.flip3').mouseenter(function() {
+        $('.flip3').shape('flip over');
+      });
+
+      $('.flip3').mouseleave(function() {
+        $('.flip3').shape('flip over');
+      });
+
+      $('.flip4').mouseenter(function() {
+        $('.flip4').shape('flip over');
+      });
+
+      $('.flip4').mouseleave(function() {
+        $('.flip4').shape('flip over');
+      });
+
+      $('.flip5').mouseenter(function() {
+        $('.flip5').shape('flip over');
+      });
+
+      $('.flip5').mouseleave(function() {
+        $('.flip5').shape('flip over');
+      });
+    </script>
+  </body>
 </html>

@@ -1,0 +1,82 @@
+      .ui.text.container {
+        max-width: 100% !important;
+        width: 100%;
+        height: 944px;
+        padding: 4%;
+      }
+      
+      #boxesFrame {
+        max-width: 100% !important;
+        width: 100%;
+        height: 837px;
+        margin: 0%;
+        padding: 1%;
+      }
+      
+      .cover {
+        width: 100%;
+        height: 784px;
+      }
+      
+      #front {
+        background-image: url(images/KratosBackground.jpg);
+        width: 100%;
+      }
+      
+      #back {
+        background-image: url(images/CalibrationsBackground.png);
+        width: 100%;
+      }
+      
+      .men {
+        width: 46%;
+        height: 340px;
+      }
+      
+      #menfront {
+        background-image: url(images/Dubsmash.png);
+        width: 100%;
+      }
+      
+      #menback {
+        background-image: url(images/Cricket.png);
+        width: 100%;
+      }
+      
+      .women {
+        width: 46%;
+        height: 340px;
+      }
+      
+      #womenfront {
+        background-image: url(images/ChannelSurfing.png);
+        width: 100%;
+      }
+      
+      #womenback {
+        background-image: url(images/FacePainting.png);
+        width: 100%;
+      }
+      
+      .extra {
+        width: 100%;
+        height: 400px;
+      }
+      
+      #extrafront {
+        background-image: url(images/COD835x300.png);
+        width: 100%;
+      }
+      
+      #extraback {
+        background-image: url(images/ManvsWild.png);
+        width: 100%;
+      }
+      
+      .inner {
+        width: 100%;
+      }
+      
+      .marginright {
+        margin-right: 7%;
+        margin-bottom: 6%;
