@@ -1,82 +1,194 @@
-      .ui.text.container {
-        max-width: 100% !important;
-        width: 100%;
-        height: 944px;
-        padding: 4%;
-      }
-      
-      #boxesFrame {
-        max-width: 100% !important;
-        width: 100%;
-        height: 837px;
-        margin: 0%;
-        padding: 1%;
-      }
-      
-      .cover {
-        width: 100%;
-        height: 784px;
-      }
-      
-      #front {
-        background-image: url(images/KratosBackground.jpg);
-        width: 100%;
-      }
-      
-      #back {
-        background-image: url(images/CalibrationsBackground.png);
-        width: 100%;
-      }
-      
-      .men {
-        width: 46%;
-        height: 340px;
-      }
-      
-      #menfront {
-        background-image: url(images/Dubsmash.png);
-        width: 100%;
-      }
-      
-      #menback {
-        background-image: url(images/Cricket.png);
-        width: 100%;
-      }
-      
-      .women {
-        width: 46%;
-        height: 340px;
-      }
-      
-      #womenfront {
-        background-image: url(images/ChannelSurfing.png);
-        width: 100%;
-      }
-      
-      #womenback {
-        background-image: url(images/FacePainting.png);
-        width: 100%;
-      }
-      
-      .extra {
-        width: 100%;
-        height: 400px;
-      }
-      
-      #extrafront {
-        background-image: url(images/COD835x300.png);
-        width: 100%;
-      }
-      
-      #extraback {
-        background-image: url(images/ManvsWild.png);
-        width: 100%;
-      }
-      
-      .inner {
-        width: 100%;
-      }
-      
-      .marginright {
-        margin-right: 7%;
-        margin-bottom: 6%;
+.ui.text.container{
+  max-width: 100% !important;
+  width: 100%;
+  height: 944px;
+  height: 100%;
+  padding: 0%;
+  }
+
+
+#boxesFrame{
+  max-width: 100% !important;
+  width: 100%;
+  height: 837px;
+  height: 100%;
+  margin: 0%;
+  padding: 1%;
+}
+
+#con{
+  position: relative;
+}
+
+.coverContainer .cover{
+  width: 100%;
+  height: 100%;
+}
+
+/*
+.coverContainer .blackBox{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: red;
+  top: 100px;
+  padding: 5%;
+  width: 80%;
+}
+
+
+.coverContainer .coverText{
+  margin-top: 30px;
+  margin-left: 6%;
+  text-align: justify;
+}
+*/
+
+.cardpad{
+  padding: 1%;
+  height: 50%;
+}
+
+#cardM{
+  width: 100%;
+  height: 100%;
+}
+
+#dimM{
+  height: 100%;
+}
+
+#heightM{
+  height: 100%;
+}
+
+#cardW{
+  width: 100%;
+  height: 100%;
+}
+
+#dimW{
+  height: 100%;
+}
+
+#heightW{
+  height: 100%;
+}
+
+.about{
+  padding: 1%;
+}
+
+.company{
+  background-color: #009688;
+  width: 100%;
+  height: 100%;
+}
+
+.innerContent{
+  padding: 8%;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+}
+
+.company .innerContent .subheading{
+  margin-left: 6%;
+}
+
+.company .innerContent .aboutPara{
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.company .innerContent .contactIcons{
+  color: #000000;
+}
+
+.company .innerContent .searchLink{
+  color: #000000;
+}
+
+@media screen and (max-height: 884px) {
+    .innerContent{
+        font-size: smaller;
+    }
+}
+
+/*
+  .cover{
+    width: 100%;
+    height: 784px;
+  }
+
+  #front{
+    background-image: url(images/KratosBackground.jpg);
+    width: 100%;
+
+  }
+
+  #back{
+    background-image: url(images/CalibrationsBackground.png);
+    width: 100%;
+
+  }
+
+  .men{
+    width: 100%;
+    height: 360px;
+  }
+
+  #menfront{
+    background-image: url(images/Dubsmash.png);
+    width: 100%;
+
+  }
+
+  #menback{
+    background-image: url(images/Cricket.png);
+    width: 100%;
+
+  }
+
+  .women{
+    width: 100%;
+    height: 360px;
+  }
+
+  #womenfront{
+    background-image: url(images/ChannelSurfing.png);
+    width: 100%;
+
+  }
+
+  #womenback{
+    background-image: url(images/FacePainting.png);
+    width: 100%;
+
+  }  
+  
+  .extra{
+    width: 100%;
+    height: 784px;
+  }
+
+  #extrafront{
+    background-image: url(images/COD835x300.png);
+    width: 100%;
+
+  }
+
+  #extraback{
+    background-image: url(images/ManvsWild.png);
+    width: 100%;
+
+  }
+
+  .inner{
+    width: 100%;
+  }
+
+  .marginright{
+     margin-bottom: 17%;  
+  }
+
+*/  
